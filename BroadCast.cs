@@ -1,17 +1,19 @@
 using System;
 using System.Collections.Generic;
-using Game.Testing;
+using Gamer.Testing;
 
 
 namespace Gamer
 {
 public class Program
 {
-public void static Main()
+public static void Main()
 {
 Game LetsStartNewGame = new Game("John");
 string Name = LetsStartNewGame.GetName();
-console.WriteLine(Name);
+Console.WriteLine(Name);
+LetsStartNewGame.SetName("ilya");
+Console.WriteLine(LetsStartNewGame.GetName());
 }
 }
 }
