@@ -14,7 +14,7 @@ string Name = LetsStartNewGame.GetName();
 Console.WriteLine("current name is "+Name);
 Console.WriteLine("suggest a name");
 string NewName = Console.ReadLine();
-LetsStartNewGame.SetName("NewName");
+LetsStartNewGame.SetName(NewName);
 Console.WriteLine("new suggested name is "+LetsStartNewGame.GetName());
 }
 }
