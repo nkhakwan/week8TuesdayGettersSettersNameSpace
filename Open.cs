@@ -7,18 +7,18 @@ namespace Practice
   public class Program
   {
 
-    public static void main()
+    public static void Main()
     {
       CarSpecs suzuki = new CarSpecs ("alto",56000, 1902);
       CarSpecs hyndai = new CarSpecs ("Santro", 50000, 5000);
       CarSpecs gm     = new CarSpecs ("prizm", 81000, 4200);
       CarSpecs honda  = new CarSpecs ("Accord", 47000, 8300);
 
-      List<CarSpecs> Inventory = new List<CarSpecs>(suzuki, hyndai, gm, honda);
+      List<CarSpecs> Inventory = new List<CarSpecs>{suzuki, hyndai, gm, honda};
       List<CarSpecs> WithInBudgetCars = new List<CarSpecs>(0);
 
-      console.WriteLine("what is your budget?");
-      string Answer = console.ReadLine();
+      Console.WriteLine("what is your budget?");
+      string Answer = Console.ReadLine();
       int Budget = int.Parse(Answer);
 
       foreach(CarSpecs auto in Inventory)
@@ -31,7 +31,7 @@ namespace Practice
 
       foreach(CarSpecs auto in WithInBudgetCars)
       {
-        console.WriteLine(auto.GetPrice);
+        Console.WriteLine(auto.GetPrice());
 
       }
 
