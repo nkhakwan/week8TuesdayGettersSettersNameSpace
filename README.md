@@ -6,7 +6,7 @@
 
 ## Description
 
-_This was just a C# coding practice day. Tried to write C# code without looking at the lessons. Got accustomed to Class and constructore Syntax along with how to generate lists that contains Constructors. Also got practice today for namespace, getters and setters.This project has different sets of UI and backend code. This was just for practice. The one that currently is effective just puts out a name and than in the coding it uses a setter to change the name and output the differnt name_
+_This was just a C# coding practice day. Tried to write C# code without looking at the lessons. Got accustomed to Class and constructore Syntax along with how to generate lists that contains Constructors. Also got practice today for namespace, getters and setters.This project has different sets of UI and backend code. This was just for practice. The one that currently is effective just puts out a name and than asks you to suggests your name and than print outs your suggested name after using firts setters and than getters_
 
 ## Setup/Installation Requirements
 
@@ -34,8 +34,8 @@ namespace
 
 
 ### Specs 
-It just runs and output two names. Nothing to input
-
+First the program outputs a name and asks you to suggest a new name
+Finally it outputs your suggested name after "setting" and subsequently "getting" that suggested name.
 ### License
 
 This software is licensed under the Epicodus inc license.
